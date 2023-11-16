@@ -19,14 +19,16 @@
     <p id="minhaMensagem"></p>
 
     <script>
-        document.getElementById("mBotao").addEventListener("click",
-            function(){
-                let nome = document.getElementById("nome").value;
+        document.getElementById("bnt-vai").addEventListener("click",
 
-                document.getElementById("minhaMensagem").innerHTML = `Ola, ${nome}!`;
+    function (){
 
-            }
-        )
+        let nome = document.getElementById('nome').value;
+
+            document.getElementById('texto').innerHTML = "Ola, " + nome + "!";
+
+    }
+    )
     </script>
 
 </body>
